@@ -1,5 +1,6 @@
 #include <stdio.h>
- 
+//codigo git hub
+ // https://github.com/Josxx24/Workshop1/blob/master/src/Taller.c
  char validarSimbolo(char s[1]){
 	do{
 		printf("Ingrese un simbolo: ");
