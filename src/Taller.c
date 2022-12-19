@@ -246,5 +246,22 @@ int main(){
 	else 
 	printf("!El valor de elementos no permite formar la letra M!\n");
 	
+	int f,c;
+    for( f = 0; f <= n; f++)
+    {
+        for (c = 0; c <= n; c++)
+        {
+            if ((f == 1 && c > 1 && c < 5 ) || (f == 4 && c > 1 && c < 5) || (f == 7 && c > 1 && c < 5) || (c == 1 && f > 1 && f < 4) || (c == 1 && f > 5) || (c == 5 && f < 3) || (c == 5 && f > 4 && f < 7))
+            {
+                printf ("*",c);
+            }
+            else
+            {
+                printf("  ");
+            }
+        }
+        printf("\n");
+    }
+	
 	return 0;
 	}
